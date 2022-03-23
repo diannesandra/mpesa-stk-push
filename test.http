@@ -1,0 +1,29 @@
+
+
+
+GET /
+content-type: application/json
+Host: 127.0.0.1:5000
+
+###
+
+POST /send_stk
+content-type: application/json
+Host: 127.0.0.1:5000
+
+{
+    
+    "email": "ahdshbjdsh@gmail.com",
+    "phone": "254712345678",
+    "amount": "10"
+}
+
+###
+
+POST /check
+content-type: application/json
+Host: 127.0.0.1:5000
+
+{
+    "order_id": "oHAsOGbAGM"
+}
